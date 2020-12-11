@@ -25,36 +25,65 @@
         <meta name="twitter:url" content="https://www.louissavoie.com">
         <meta property="twitter:image" content=""> <!-- WIP -->
 
-        <!-- favicon -->
+        <!-- favicons -->
         <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
         <link rel="manifest" href="favicon_io/site.webmanifest">
 
-        <!--Bootstrap 5 CDNs-->
+        <!-- Bootstrap 5 CDNs -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
         <!-- FONT AWESOME CDN -->
         <script src="https://kit.fontawesome.com/f48ece1f64.js" crossorigin="anonymous"></script>
 
-        <!--My CSS-->
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+        <!-- My CSS -->
         <link rel="stylesheet" href="style.css">
 
     </head>
 
     <body>
 
+        <!-- TITLE SECTION -->
+        <section id="title-section" class="zoomed max-height d-flex flex-column justify-content-center text-center px-3">
 
+            <!-- Headings -->
+            <h1 class="display-1 fw-bold text-shadow">Louis Savoie</h1>
+            <h2 class="text-shadow">Web Developer Portfolio</h2>
+
+            <!-- Buttons -->
+            <div id="links" class="d-flex flex-wrap justify-content-center">
+                <div class="me-2">
+                    <!-- LINKEDIN LINK -->
+                    <a href="https://www.linkedin.com/in/louis-savoie-6a70811b4/" target="_blank" class="btn btn-primary rounded-pill shadow-box me-2 mt-3"><i class="fab fa-linkedin me-2"></i>LinkedIn</a>
+                    <!-- GITHUB LINK -->
+                    <a href="https://github.com/LouisSavoie" target="_blank" class="btn btn-secondary rounded-pill shadow-box me-2 mt-3"><i class="fab fa-github me-2"></i>GitHub</a>
+                </div>
+                <div>
+                    <!-- EMAIL -->
+                    <a href="mailto:thelousavoie@gmail.com" target="_blank" class="btn btn-success rounded-pill shadow-box me-2 mt-3"><i class="fas fa-paper-plane me-2"></i>Email</a>
+                    <!-- RESUME -->
+                    <a href="/LouisSavoie_WebDeveloper_Resume.pdf" class="btn btn-danger rounded-pill shadow-box me-2 mt-3" download><i class="fas fa-file-pdf me-2"></i>Resume</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ABOUT SECTION -->
         
-        <!-- Footer -->
+        <!-- FOOTER -->
         <footer>
-            <p class="text-center">Copyright© Louis Savoie 2020</p>
+            <p class="text-center text-shadow">Copyright© Louis Savoie 2020</p>
         </footer>
 
-        <!--My Javascript-->
+        <!-- My Javascript -->
         <script src="script.js"></script>
-        
+
     </body>
 
 </html>

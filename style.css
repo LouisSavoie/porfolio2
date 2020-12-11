@@ -2,7 +2,90 @@
 /*       General        */
 /* -------------------- */
 
+body {
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #182848, #4b6cb7)  no-repeat fixed;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #182848, #4b6cb7)  no-repeat fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+/* -------------------- */
+/*        Utility       */
+/* -------------------- */
+
+/* Zoom */
+.zoomed {
+    zoom: 1;
+    -moz-transform: scale(1);
+    -moz-transform-origin: 0 0;
+}
+
+@media screen and (min-width: 576px) {
+    .zoomed {
+        zoom: 1.15;
+        -moz-transform: scale(1.5);
+        -moz-transform-origin: 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .zoomed {
+        zoom: 1.45;
+        -moz-transform: scale(1.5);
+        -moz-transform-origin: 0 0;
+    }
+}
+
+/* Zoom with max Veiwport Height */
+.max-height {
+    height: 100vh;
+}
+
+@media screen and (min-width: 576px) {
+    .max-height {
+        height: 88vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .max-height {
+        height: 70vh;
+    }
+}
+
+/* Box Shadow */
+.shadow-box {
+    box-shadow: -5px 5px 7px rgb(39, 39, 39);
+}
+
+/* Text Shadow */
+.text-shadow {
+    text-shadow: -5px 5px 7px black;
+}
+
+/* -------------------- */
+/*      Typography      */
+/* -------------------- */
+
+/* Google Fonts:
+font-family: 'Varela Round', sans-serif;
+*/
+
+* {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+h2 {
+    color: rgb(206, 206, 206);
+}
+
+/* -------------------- */
+/*    Title Section     */
+/* -------------------- */
+
+#title-section a {
+    
+}
 
 /* -------------------- */
 /*        About         */
