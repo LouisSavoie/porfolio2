@@ -14,24 +14,21 @@ body {
 
 /* Zoom */
 .zoomed {
-    zoom: 1;
+    transform: scale(1);
     -moz-transform: scale(1);
-    -moz-transform-origin: 0 0;
 }
 
 @media screen and (min-width: 576px) {
     .zoomed {
-        zoom: 1.15;
-        -moz-transform: scale(1.5);
-        -moz-transform-origin: 0 0;
+        transform: scale(1.15);
+        -moz-transform: scale(1.15);
     }
 }
 
 @media screen and (min-width: 768px) {
     .zoomed {
-        zoom: 1.45;
-        -moz-transform: scale(1.5);
-        -moz-transform-origin: 0 0;
+        transform: scale(1.45);
+        -moz-transform: scale(1.45);
     }
 }
 
@@ -78,22 +75,3 @@ font-family: 'Varela Round', sans-serif;
 h2 {
     color: rgb(206, 206, 206);
 }
-
-/* -------------------- */
-/*    Title Section     */
-/* -------------------- */
-
-#title-section a {
-    
-}
-
-/* -------------------- */
-/*        About         */
-/* -------------------- */
-
-
-
-/* -------------------- */
-/*        Footer        */
-/* -------------------- */
-
