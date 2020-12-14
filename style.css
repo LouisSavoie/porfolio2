@@ -38,21 +38,9 @@ body {
     }
 }
 
-/* Zoom with max Veiwport Height */
+/* 100% Veiwport Height */
 .max-height {
     height: 100vh;
-}
-
-@media screen and (min-width: 576px) {
-    .max-height {
-        height: 88vh;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .max-height {
-        height: 70vh;
-    }
 }
 
 /* Box Shadow */
