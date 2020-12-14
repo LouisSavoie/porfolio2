@@ -7,7 +7,7 @@
 ## Content
 
 * Link to my GitHub
-* Link to my Linkedin
+* Link to my LinkedIn
 * Download my Resume
 * Contact me via E-mail
 * About Me
@@ -15,7 +15,7 @@
     1. 
     2. 
     3. 
-* My Skills
+* Technologies I've Worked with
 
 ## Included Technologies
 
