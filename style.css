@@ -22,12 +22,12 @@
 
 /* Gray Text */
 .text-gray {
-    color: rgb(206, 206, 206);
+    color: rgb(192, 192, 192);
 }
 
 /* Gray List Items (Applied to Parent) */
 .li-gray li {
-    color: rgb(206, 206, 206);
+    color: rgb(192, 192, 192);
 }
 
 /* Rounded Borders */
