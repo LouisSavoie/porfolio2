@@ -1,0 +1,3 @@
+[submodule "projects/bootstrap5-salon"]
+	path = projects/bootstrap5-salon
+	url = https://github.com/LouisSavoie/bootstrap5-salon
