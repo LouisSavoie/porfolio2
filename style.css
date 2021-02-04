@@ -26,6 +26,10 @@
 }
 
 /* Gray List Items (Applied to Parent) */
+.li-gray li {
+    color: rgb(192, 192, 192);
+}
+
 .li-gray li a {
     text-decoration: none;
     color: rgb(192, 192, 192);
