@@ -1,5 +1,3 @@
-# **WORK IN PROGRESS**
-
 # My Portfolio Website
 
 **View Here:** [LouisSavoie.com](https://www.louissavoie.com/)
